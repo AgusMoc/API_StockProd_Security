@@ -18,6 +18,10 @@ public enum UserRole {
         this.permission = permissions;
     }
 
+    public String getRole(){
+        return this.name();
+    }
+
     public Set<UserPermission> getPermission(){
         return permission;
     }
